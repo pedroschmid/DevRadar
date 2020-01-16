@@ -1,6 +1,6 @@
 # Github Profiles
 
-Uma aplicação onde você cadastra usuarios do Github atravez do nome.
+Uma aplicação onde você cadastra usuarios do github atravez do nome e geo-localização e então os usuarios cadastrados aparecem em um dashboard com as informações especificadas.
 
 ### PRE-REQUISITOS
 
