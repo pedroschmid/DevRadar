@@ -19,12 +19,10 @@ Baixe o .zip, descompacte-o e então quando abra a pasta em algum editor de text
 * [Node](https://nodejs.org/en/)
 * [MongoDB](https://www.mongodb.com/)
 
-## Versioning
-
-## Authors
+## AUTORES
 
 * **Pedro Guilherme**
 
-## Acknowledgments
+## AGRADECIMENTOS
 
 * Adonay
