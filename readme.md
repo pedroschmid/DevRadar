@@ -2,6 +2,7 @@
 
 Uma aplicação onde você cadastra usuarios do github atravez do nome e geo-localização e então os usuarios cadastrados aparecem em um dashboard com as informações especificadas.
 
+![Alt text](https://imgur.com/a/E87ADt5)
 ### PRE-REQUISITOS
 
 ReactJS
