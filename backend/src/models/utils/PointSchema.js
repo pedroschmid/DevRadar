@@ -1,6 +1,6 @@
-const mognoose = require('mongoose')
+const mongoose = require('mongoose')
 
-const PointSchema = new mognoose.Schema({
+const PointSchema = new mongoose.Schema({
     type: {
         type: String,
         enum: ['Point'],
