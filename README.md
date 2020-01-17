@@ -2,7 +2,12 @@
 
 Uma aplicação onde você cadastra usuarios do github atravez do nome e geo-localização e então os usuarios cadastrados aparecem em um dashboard com as informações especificadas.
 
-![image](readmeIMG.png)
+# Web Screenshot
+![image](https://github.com/pedroschmid/DevRadar/blob/master/zIMGs/web.png)
+
+# Mobile Screenshot
+![image](https://github.com/pedroschmid/DevRadar/blob/master/zIMGs/mobile.jpg)
+
 ### PRE-REQUISITOS
 
 ReactJS
