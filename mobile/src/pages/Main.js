@@ -41,7 +41,7 @@ function Main({ navigation }) {
             params: {
                 latitude,
                 longitude,
-                techs
+                techs: 'NodeJS'
             }
         })
 

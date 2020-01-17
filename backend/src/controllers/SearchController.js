@@ -7,7 +7,7 @@ module.exports = {
             latitude,
             longitude,
             techs
-        } = request.query
+        } = request.body
 
         const techsArray = parseStringAsArray(techs)
 
@@ -27,7 +27,7 @@ module.exports = {
         })
 
         return response.json({
-            devs: []
+            devs: [devs]
         })
     }
 }

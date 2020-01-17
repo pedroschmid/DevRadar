@@ -15,7 +15,7 @@ module.exports = {
             techs,
             latitude,
             longitude
-        } = request.body
+        } = request.body;
 
         let dev = await Dev.findOne({
             github_username
@@ -41,7 +41,7 @@ module.exports = {
                 avatar_url,
                 bio,
                 techs: techsArray,
-                location
+                location,
             })
         }
 
