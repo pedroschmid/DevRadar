@@ -6,8 +6,8 @@ module.exports = {
         const {
             latitude,
             longitude,
-            techs
-        } = request.body
+            techs,
+        } = request.query
 
         const techsArray = parseStringAsArray(techs)
 
@@ -26,8 +26,6 @@ module.exports = {
             },
         })
 
-        return response.json({
-            devs: [devs]
-        })
+        return response.json({devs,})
     }
 }

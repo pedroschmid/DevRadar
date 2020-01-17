@@ -41,7 +41,7 @@ function Main({ navigation }) {
             params: {
                 latitude,
                 longitude,
-                techs: 'NodeJS'
+                techs
             }
         })
 
@@ -62,18 +62,16 @@ function Main({ navigation }) {
         onRegionChangeComplete={handleRegionChanged} 
         style={styles.map}>
 
-            {devs.map(dev => {
+            {devs.map(dev => (
                             <Marker 
                             key={dev._id}
                             coordinate={{ 
-                                latitude: dev.location.coordinates[1], 
                                 longitude: dev.location.coordinates[0],
+                                latitude: dev.location.coordinates[1], 
                                 }}>
                                 <Image 
                                 style={styles.avatar} 
-                                source={{ 
-                                    uri: 'https://avatars0.githubusercontent.com/u/47400938?s=460&v=4' 
-                                    }} />
+                                source={{ uri: dev.avatar_url }} />
                 
                                 <Callout onPress={() => {
                                         navigation.navigate('Profile', { github_username: dev.github_username })
@@ -85,7 +83,7 @@ function Main({ navigation }) {
                                     </View>
                                 </Callout>
                             </Marker>
-            })}
+            ))}
         </MapView>
 
         <View style={styles.searchForm}>
