@@ -1,6 +1,6 @@
-# Github Profiles
+# Dev Radar
 
-Uma aplicação onde você cadastra usuarios do github atravez do nome e geo-localização e então os usuarios cadastrados aparecem em um dashboard com as informações especificadas.
+An application where you register users of github by name and geo-location and then registered users appear on a dashboard with the specified information.
 
 # Web Screenshot
 ![image](https://github.com/pedroschmid/DevRadar/blob/master/zIMGs/web.png)
@@ -8,27 +8,27 @@ Uma aplicação onde você cadastra usuarios do github atravez do nome e geo-loc
 # Mobile Screenshot
 ![image](https://github.com/pedroschmid/DevRadar/blob/master/zIMGs/mobile.jpg)
 
-### PRE-REQUISITOS
+### PRE-REQUIREMENTS
 
 ReactJS
 React-Native
 NodeJS
 MongoDB
 
-### INSTALANDO
+### INSTALLING
 
-Baixe o .zip, descompacte-o e então quando abra a pasta em algum editor de texto, apos isso no terminal/ps digite npm install ou yarn add para poder instalar as depencencias que estão em falta, e então execute o servidor backend e o app frontend
+Download the .zip, unzip it and then when you open the folder in some text editor, after that in the terminal / ps type npm install or yarn add to be able to install the missing dependencies, and then run the backend server and frontend app
 
-## FEITO COM
+## MADE WITH
 
 * [React](https://reactjs.org/)
 * [Node](https://nodejs.org/en/)
 * [MongoDB](https://www.mongodb.com/)
 
-## AUTORES
+## AUTHORS
 
 * **Pedro Guilherme**
 
-## AGRADECIMENTOS
+## THANKS
 
 * Adonay
